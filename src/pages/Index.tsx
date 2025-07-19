@@ -7,7 +7,7 @@ import Footer from '../components/Footer';
 import Hello from '@/components/Hello';
 import TestTestimonial from './TestimonialData';
 import HomeAchievements from '@/components/HomeAchievements';
-import WhatsappPlugin from '@/components/WhatsAppPlugin';
+import WhatsappPlugin from '@/components/WhatsappPlugin';
 
 const Index = () => {
   return (
