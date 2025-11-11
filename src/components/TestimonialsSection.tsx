@@ -6,7 +6,7 @@ const TestimonialsSection = () => {
     id: 1,
     name: "Aditya Yadav",
     rank: "IIT Delhi",
-    image: "/Testimonial/Aditya.png",
+    image: "/Testimonial/Aditya.webp",
     text: "My IIT journey began late, but finding the right teacher changed everything. Vaibhav Sir made boring topics interesting and supported me every step of the way.",
     rating: 5,
     year: "2024"
@@ -15,7 +15,7 @@ const TestimonialsSection = () => {
     id: 2,
     name: "Aviral Agarwal",
     rank: "IIT Kharagpur",
-    image: "/Testimonial/Aviral.png",
+    image: "/Testimonial/Aviral.webp",
     text: "I had settled for an average rank, but Vaibhav Sir made me believe I could achieve under AIR 1000. That belief changed everything and helped me succeed.",
     rating: 5,
     year: "2024"
@@ -24,7 +24,7 @@ const TestimonialsSection = () => {
     id: 3,
     name: "Dhruv Dhupar",
     rank: "IIT Delhi",
-    image: "/Testimonial/Dhruv.png",
+    image: "/Testimonial/Dhruv.webp",
     text: "My marks weren’t great at first, but Vaibhav Bhaiya’s support made all the difference. I became confident, and his guidance extended even after JEE.",
     rating: 5,
     year: "2024"
@@ -33,7 +33,7 @@ const TestimonialsSection = () => {
     id: 4,
     name: "Harsh Shankar Pandey",
     rank: "NIT Allahabad",
-    image: "/Testimonial/harshPandey.png",
+    image: "/Testimonial/harshPandey.webp",
     text: "Vaibhav Bhaiya’s calm and clear teaching style made Maths easy to grasp. His mentorship continued even after I got into NIT, helping me beyond academics.",
     rating: 5,
     year: "2024"
@@ -42,7 +42,7 @@ const TestimonialsSection = () => {
     id: 5,
     name: "Ishwin Kumar",
     rank: "IIT Kanpur",
-    image: "/Testimonial/Ishwin.png",
+    image: "/Testimonial/Ishwin.webp",
     text: "This journey taught me consistency. Vaibhav Bhaiya treated us like younger siblings and believed in us even when we doubted ourselves.",
     rating: 5,
     year: "2024"
@@ -51,7 +51,7 @@ const TestimonialsSection = () => {
     id: 6,
     name: "Molik Tyagi",
     rank: "IIT Mandi",
-    image: "/Testimonial/MolikTyagi.png",
+    image: "/Testimonial/MolikTyagi.webp",
     text: "Balancing boards and JEE was tough, but Vaibhav Bhaiya helped me through it. His motivation after my Olympiad failure kept me going strong.",
     rating: 5,
     year: "2024"
@@ -60,7 +60,7 @@ const TestimonialsSection = () => {
     id: 7,
     name: "Mudit Tiwari",
     rank: "IIT Indore",
-    image: "/Testimonial/Mudit.png",
+    image: "/Testimonial/Mudit.webp",
     text: "Vaibhav Bhaiya is approachable, humorous, and motivating. His positive attitude made every class enjoyable and learning stress-free.",
     rating: 5,
     year: "2024"
@@ -69,7 +69,7 @@ const TestimonialsSection = () => {
     id: 8,
     name: "Navrun Singh",
     rank: "IIIT Delhi",
-    image: "/Testimonial/Navrun.png",
+    image: "/Testimonial/Navrun.webp",
     text: "My JEE journey had its ups and downs, but Vaibhav Sir guided me through it all. After my first Mains attempt, his mentorship helped me recover and improve.",
     rating: 5,
     year: "2024"
@@ -79,7 +79,7 @@ const TestimonialsSection = () => {
     id: 9,
     name: "Subal Manchanda",
     rank: "IIT Hyderabad",
-    image: "/Testimonial/Subal.png",
+    image: "/Testimonial/Subal.webp",
     text: "When Vaibhav Bhaiya taught Maths, four hours felt like minutes. His sessions were fun, engaging, and something I’ll always cherish.",
     rating: 5,
     year: "2024"
@@ -88,7 +88,7 @@ const TestimonialsSection = () => {
     id: 10,
     name: "Utkarsh Garg",
     rank: "IIIT Delhi",
-    image: "/Testimonial/UtkarshGarg.png",
+    image: "/Testimonial/UtkarshGarg.webp",
     text: "He wasn’t just a teacher; he was a mentor. His practical advice and chill class environment made learning smooth and effective.",
     rating: 5,
     year: "2024"
