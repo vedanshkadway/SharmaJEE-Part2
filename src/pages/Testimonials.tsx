@@ -3,86 +3,311 @@ import { Star, Quote, Play, Award, Users, MessageSquare } from 'lucide-react';
 import Header from '../components/Header';
 import Footer from '../components/Footer';
 import TestimonialsSection from '@/components/TestimonialsSection';
-import TestimonialCarousel from '@/components/TestimonialCarousel';
+
 
 const Testimonials = () => {
-  const detailedTestimonials = [
-    {
-      id: 1,
-      name: "Arjun Mehta",
-      rank: "AIR 47, JEE Advanced 2023",
-      college: "IIT Bombay - Computer Science",
-      image: "https://images.unsplash.com/photo-1507003211169-0a1dd7228f2d?w=150&h=150&fit=crop&crop=face",
-      rating: 5,
-      testimonial: "SharmaJEE completely transformed my approach to JEE preparation. The way Rohit sir explains complex Physics concepts made everything so clear. I went from scoring 120 marks in my first mock test to 285 in the actual JEE Advanced. The personalized attention and doubt clearing sessions were game-changers. I couldn't have asked for better guidance!",
-      videoUrl: "#",
-      year: "2023"
-    },
-    {
-      id: 2,
-      name: "Priya Sharma",
-      rank: "AIR 92, JEE Advanced 2023", 
-      college: "IIT Delhi - Electrical Engineering",
-      image: "https://images.unsplash.com/photo-1494790108755-2616b332c86c?w=150&h=150&fit=crop&crop=face",
-      rating: 5,
-      testimonial: "What sets SharmaJEE apart is the holistic approach to JEE preparation. It's not just about memorizing formulas - Rohit sir taught me how to think analytically and approach problems systematically. The mock tests were incredibly helpful in building my confidence. Chemistry, which was my weakest subject, became one of my strongest thanks to the detailed explanations and practice sessions.",
-      videoUrl: "#",
-      year: "2023"
-    },
-    {
-      id: 3,
-      name: "Rohit Kumar",
-      rank: "AIR 156, JEE Advanced 2023",
-      college: "IIT Kanpur - Mechanical Engineering", 
-      image: "https://images.unsplash.com/photo-1472099645785-5658abf4ff4e?w=150&h=150&fit=crop&crop=face",
-      rating: 5,
-      testimonial: "Mathematics was always challenging for me until I joined SharmaJEE. Rohit sir's problem-solving techniques and shortcuts made calculus and coordinate geometry so much easier. The study material is comprehensive and the regular assessments helped me track my progress. Most importantly, the motivational support during tough times kept me going. Highly recommend to every JEE aspirant!",
-      videoUrl: "#",
-      year: "2023"
-    },
-    {
-      id: 4,
-      name: "Sneha Patel",
-      rank: "AIR 203, JEE Advanced 2022",
-      college: "IIT Madras - Chemical Engineering",
-      image: "https://images.unsplash.com/photo-1438761681033-6461ffad8d80?w=150&h=150&fit=crop&crop=face", 
-      rating: 5,
-      testimonial: "The structured curriculum and personalized study plan at SharmaJEE made all the difference. Coming from a small town, I was worried about the level of competition, but Rohit sir's teaching gave me the confidence to compete with the best. The organic chemistry sessions were particularly brilliant - concepts that seemed impossible became crystal clear. Forever grateful for this guidance!",
-      videoUrl: "#",
-      year: "2022"
-    },
-    {
-      id: 5,
-      name: "Karan Singh",
-      rank: "AIR 278, JEE Advanced 2022",
-      college: "IIT Roorkee - Civil Engineering",
-      image: "https://images.unsplash.com/photo-1500648767791-00dcc994a43e?w=150&h=150&fit=crop&crop=face",
-      rating: 5,
-      testimonial: "SharmaJEE's mock test series is incredible! The questions are at par with actual JEE difficulty, and the detailed solutions helped me understand my mistakes. Rohit sir's physics lectures are legendary - he makes even the most complex topics seem simple. The peer group here is also very supportive and competitive at the same time.",
-      videoUrl: "#", 
-      year: "2022"
-    },
-    {
-      id: 6,
-      name: "Anjali Gupta",
-      rank: "AIR 312, JEE Advanced 2022",
-      college: "IIT Guwahati - Electronics",
-      image: "https://images.unsplash.com/photo-1544005313-94ddf0286df2?w=150&h=150&fit=crop&crop=face",
-      rating: 5,
-      testimonial: "As a female student in a male-dominated field, I sometimes felt intimidated, but SharmaJEE provided such a supportive environment. Rohit sir's teaching style is inclusive and encouraging. The mathematics problem-solving sessions were particularly helpful. I'm now pursuing my dream at IIT Guwahati, and it's all thanks to the solid foundation I got here.",
-      videoUrl: "#",
-      year: "2022"
-    }
-  ];
+ const detailedTestimonials = [
+  {
+    id: 1,
+    name: "Aashna Suman",
+    college: "",
+    rank: "",
+    image: "/Testimonial/Aashna.png",
+    rating: 5,
+    testimonial:
+      "This journey was a big step for me. Vaibhav Bhaiya has been one of the most helpful and interactive teachers I’ve ever met. More than a teacher, he feels like a friend who truly understands his students. His emotional support, encouragement, and unique teaching style kept me motivated and confident throughout my preparation.",
+    videoUrl: "https://www.youtube.com/embed/ZJja6pMCGhI",
+    year: "2024",
+  },
+  {
+    id: 2,
+    name: "Aditya Yadav",
+    college: "IIT Delhi",
+    rank: "",
+    image: "/Testimonial/Aditya.png",
+    rating: 5,
+    testimonial:
+      "My IIT journey started late, but Vaibhav Sir changed everything. His engaging style made even boring math topics fun. I once texted him at 3 AM with a doubt, and he replied instantly! His constant guidance helped me crack JEE Advanced with confidence, and that emotional connection with him still remains strong.",
+    videoUrl: "https://www.youtube.com/embed/8g_5jr9HXXo",
+    year: "2024",
+  },
+  {
+    id: 3,
+    name: "Ananya Bhardwaj",
+    college: "IGDTUW",
+    rank: "",
+    image: "/Testimonial/Ananya.png",
+    rating: 5,
+    testimonial:
+      "Math was my weakest subject. I almost gave up, but after personal classes with Vaibhav Sir, everything changed. He tracked my tests, gave me focused strategies, and helped me rebuild my confidence. His mentorship made me believe I could actually enjoy and excel at Math.",
+    videoUrl: "https://www.youtube.com/embed/4A4Qy1eNApw",
+    year: "2024",
+  },
+  {
+    id: 4,
+    name: "Aniket Saxena",
+    college: "",
+    rank: "",
+    image: "/Testimonial/Aniket.png",
+    rating: 5,
+    testimonial:
+      "This journey taught me discipline and the importance of deadlines. Vaibhav Bhaiya was like an elder brother—someone I could discuss anything with. His classes were full of energy, humor, and deep learning. I even started loving coordinate geometry, which I once disliked!",
+    videoUrl: "https://www.youtube.com/embed/aExO7EJPBz4",
+    year: "2023",
+  },
+  {
+    id: 5,
+    name: "Anshika Sharma",
+    college: "IGDTUW",
+    rank: "",
+    image: "/Testimonial/Anshika.png",
+    rating: 5,
+    testimonial:
+      "Vaibhav Sir was more than a teacher—he felt like a caring elder brother. He could tell when I didn’t understand something just by my expression and patiently explained it again without making me feel bad. His constant motivation helped me push through my drop year.",
+    videoUrl: "https://www.youtube.com/embed/dPRYkhdDMkM",
+    year: "2024",
+  },
+  {
+    id: 6,
+    name: "Anushree",
+    college: "IGDTUW",
+    rank: "",
+    image: "/Testimonial/Anushree.png",
+    rating: 5,
+    testimonial:
+      "This journey boosted my confidence, especially in Math. Vaibhav Sir taught every concept in depth and made sure every doubt was cleared—no matter how many times I asked. That patience and dedication made me love learning again.",
+    videoUrl: "https://www.youtube.com/embed/YL6XEA81SdI",
+    year: "2024",
+  },
+  {
+    id: 7,
+    name: "Arpit Singh",
+    college: "",
+    rank: "",
+    image: "/Testimonial/ArpitSingh.png",
+    rating: 5,
+    testimonial:
+      "This journey taught me how to handle pressure. Just like Chandragupta had Chanakya, I had Vaibhav Sir—guiding me every step of the way. He supported me academically and personally. Whatever I’ve achieved today is because of his mentorship.",
+    videoUrl: "https://www.youtube.com/embed/XULkrYhcbaM",
+    year: "2024",
+  },
+  {
+    id: 8,
+    name: "Aviral Agarwal, IIT Kharagpur",
+    college: "IIT Kharagpur",
+    rank: "",
+    image: "/Testimonial/Aviral.png",
+    rating: 5,
+    testimonial:
+      "My JEE journey was transformative. I had mentally settled for an average rank, but Vaibhav Sir made me believe that even under AIR 1000 was possible. That belief changed my mindset completely and helped me reach my goal.",
+    videoUrl: "https://www.youtube.com/embed/mA7j85gudHY",
+    year: "2024",
+  },
+  {
+    id: 9,
+    name: "Avni Agnihotri",
+    college: "IGDTUW",
+    rank: "",
+    image: "/Testimonial/Avni.png",
+    rating: 5,
+    testimonial:
+      "The JEE journey taught me perseverance and discipline. Vaibhav Sir made Maths enjoyable, clearing tough concepts with patience. His humor kept the class fun, and his guidance helped me bridge the gap between Mains and Advanced.",
+    videoUrl: "https://www.youtube.com/embed/4QE7Ni3taHg",
+    year: "2024",
+  },
+  {
+    id: 10,
+    name: "Dhruv Dhupar",
+    college: "IIT Delhi",
+    rank: "",
+    image: "/Testimonial/Dhruv.png",
+    rating: 5,
+    testimonial:
+      "When I started coaching, my marks were low, but Vaibhav Bhaiya made me feel comfortable sharing doubts. Gradually, my confidence grew, and I started performing better. He even guided me about college life later on.",
+    videoUrl: "https://www.youtube.com/embed/zfgKf6p5Pwc",
+    year: "2024",
+  },
+  {
+    id: 11,
+    name: "Harsh Shankar Pandey, NIT Allahabad",
+    college: "NIT Allahabad",
+    rank: "",
+    image: "/Testimonial/harshPandey.png",
+    rating: 5,
+    testimonial:
+      "Nothing in life comes easy—this journey proved it. Vaibhav Bhaiya’s calm, concept-driven approach made Maths feel simple. His mentoring continued even after I joined college, and I’m grateful for his constant support.",
+    videoUrl: "https://www.youtube.com/embed/aOCtJAlDOPE",
+    year: "2024",
+  },
+  {
+    id: 12,
+    name: "Ikjot Singh",
+    college: "",
+    rank: "",
+    image: "/Testimonial/Ikjot.png",
+    rating: 4,
+    testimonial:
+      "This journey taught me self-discipline and how to prioritize. Vaibhav Bhaiya supported me through every high and low. His mentorship and care truly shaped my growth.",
+    videoUrl: "https://www.youtube.com/embed/zT1xWF0fZWo",
+    year: "2024",
+  },
+  {
+    id: 13,
+    name: "Ishank Gupta",
+    college: "IIIT Delhi",
+    rank: "",
+    image: "/Testimonial/Ishank.png",
+    rating: 5,
+    testimonial:
+      "At my lowest point in Class 12, I couldn’t solve even simple problems. Vaibhav Bhaiya was always there to guide me. His advice — 'Just keep going, don’t stop' — gave me strength to push through.",
+    videoUrl: "https://www.youtube.com/embed/W1KGIA-Sybw",
+    year: "2024",
+  },
+  {
+    id: 14,
+    name: "Ishwin Kumar",
+    college: "IIT Kanpur",
+    rank: "",
+    image: "/Testimonial/Ishwin.png",
+    rating: 5,
+    testimonial:
+      "Consistency is what I learned from Vaibhav Bhaiya. His teaching was clear and engaging, and his emotional support made tough times easier. He believed in me even when I doubted myself.",
+    videoUrl: "https://www.youtube.com/embed/TDfjBFTBBcs",
+    year: "2024",
+  },
+  {
+    id: 15,
+    name: "Mohammad Saqib",
+    college: "DTU",
+    rank: "",
+    image: "/Testimonial/Saqib.png",
+    rating: 5,
+    testimonial:
+      "As a dropper, this journey was my second chance. Vaibhav Bhaiya was approachable, supportive, and always there to help—academically and personally. His mentorship made my JEE prep much smoother.",
+    videoUrl: "https://www.youtube.com/embed/l7iY3TpIbe4",
+    year: "2024",
+  },
+  {
+    id: 16,
+    name: "Molik Tyagi",
+    college: "IIT Mandi",
+    rank: "",
+    image: "/Testimonial/MolikTyagi.png",
+    rating: 5,
+    testimonial:
+      "Balancing boards and JEE in 12th was hard, but Vaibhav Bhaiya handled all my Maths doubts. When I failed Olympiads, his personal motivation lifted me up. His support meant the world to me.",
+    videoUrl: "https://www.youtube.com/embed/3a3ZkoRnrAQ",
+    year: "2024",
+  },
+  {
+    id: 17,
+    name: "Chandramauli Joarder",
+    college: "",
+    rank: "",
+    image: "/Testimonial/Chandramauli.png",
+    rating: 5,
+    testimonial:
+      "My JEE journey taught me resilience and hard work. Vaibhav Bhaiya’s humor made classes stress-free and kept everyone engaged. He created a positive environment that made even tough topics enjoyable.",
+    videoUrl: "https://www.youtube.com/embed/KKEWiMNYU5Q",
+    year: "2024",
+  },
+  {
+    id: 18,
+    name: "Mudit Tiwari",
+    college: "IIT Indore",
+    rank: "",
+    image: "/Testimonial/Mudit.png",
+    rating: 5,
+    testimonial:
+      "Vaibhav Bhaiya is approachable, funny, and an amazing mentor. His humor and personality make it easy to discuss problems without hesitation. His sessions were both helpful and fun.",
+    videoUrl: "https://www.youtube.com/embed/pl7fCtEdXYc",
+    year: "2024",
+  },
+  {
+    id: 19,
+    name: "Navrun Singh",
+    college: "IIIT Delhi",
+    rank: "",
+    image: "/Testimonial/Navrun.png",
+    rating: 5,
+    testimonial:
+      "My JEE journey had ups and downs, but Vaibhav Sir guided me throughout. After my first JEE Mains didn’t go well, he helped me reset and prepare better for the next attempt. His mentorship was invaluable.",
+    videoUrl: "https://www.youtube.com/embed/on1xt06SQTI",
+    year: "2024",
+  },
+  {
+    id: 20,
+    name: "Pranjal Gangwani",
+    college: "BITS Goa",
+    rank: "",
+    image: "/Testimonial/Pranjal.png",
+    rating: 5,
+    testimonial:
+      "From 10th grade onward, Vaibhav Bhaiya has been more than just a teacher. He made me fall in love with Math and taught me how to stay calm under pressure. His care and positivity inspired me a lot.",
+    videoUrl: "https://www.youtube.com/embed/SOUzmnEFBh8",
+    year: "2024",
+  },
+  {
+    id: 21,
+    name: "Priyal Anand",
+    college: "IGDTUW",
+    rank: "",
+    image: "/Testimonial/Priyal.png",
+    rating: 5,
+    testimonial:
+      "This journey taught me consistency. Vaibhav Bhaiya reminded us that it’s not about studying for hours but showing up every day. His advice to focus on the process, not just results, changed my approach completely.",
+    videoUrl: "https://www.youtube.com/embed/dFf4LuNuJ8o",
+    year: "2024",
+  },
+  {
+    id: 22,
+    name: "Riddhi Sood",
+    college: "",
+    rank: "",
+    image: "/Testimonial/Riddhi.png",
+    rating: 5,
+    testimonial:
+      "This journey was challenging, but Vaibhav Bhaiya guided and supported me through it all. He connected personally with every student and taught us that staying strong is a victory in itself.",
+    videoUrl: "https://www.youtube.com/embed/hVMFe6Kp3dA",
+    year: "2024",
+  },
+  {
+    id: 23,
+    name: "Subal Manchanda, IIT Hyderabad",
+    college: "IIT Hyderabad",
+    rank: "",
+    image: "/Testimonial/Subal.png",
+    rating: 5,
+    testimonial:
+      "Whenever Vaibhav Bhaiya taught Maths, four hours passed like minutes. His sessions were both informative and fun. Learning from him was one of the best parts of my journey.",
+    videoUrl: "https://www.youtube.com/embed/rc2JwEuNBaE",
+    year: "2024",
+  },
+  {
+    id: 24,
+    name: "Utkarsh Garg",
+    college: "IIIT Delhi",
+    rank: "",
+    image: "/Testimonial/UtkarshGarg.png",
+    rating: 5,
+    testimonial:
+      "He wasn’t just a teacher; he was a mentor. His practical guidance and relaxed classroom environment made learning smooth and enjoyable. He truly shaped my approach to studying.",
+    videoUrl: "https://www.youtube.com/embed/joelTss_TDw",
+    year: "2024",
+  },
+];
+
+
+
 
   const stats = [
-    { number: "1000+", label: "Happy Students", icon: Users },
+    { number: "100+", label: "Happy Students", icon: Users },
     { number: "95%", label: "Success Rate", icon: Award },
     { number: "4.9/5", label: "Average Rating", icon: Star },
     { number: "50+", label: "Video Reviews", icon: Play }
   ];
 
-  const years = ["All", "2023", "2022"];
+  const years = ["All", "2024", "2023"];
   const [selectedYear, setSelectedYear] = useState("All");
 
   const filteredTestimonials = selectedYear === "All" 
@@ -92,7 +317,6 @@ const Testimonials = () => {
   return (
     <div className="min-h-screen bg-white mt-10">
       <Header />
-      {/* <TestimonialCarousel/> */}
       {/* Hero Section */}
       <section className="pt-24 pb-16 bg-gradient-to-br from-blue-900 via-blue-700 to-blue-600">
         <div className="container mx-auto px-4 sm:px-6 lg:px-8">
@@ -184,7 +408,7 @@ const Testimonials = () => {
                   </div>
                   
                   {/* Play Button */}
-                  <button className="bg-blue-600 text-white p-3 rounded-full hover:bg-blue-700 transition-colors duration-300 group-hover:scale-110">
+                  <button onClick={() => window.open(testimonial.videoUrl, "_blank")} className="bg-blue-600 text-white p-3 rounded-full hover:bg-blue-700 transition-colors duration-300 group-hover:scale-110">
                     <Play className="h-5 w-5" />
                   </button>
                 </div>

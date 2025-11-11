@@ -2,61 +2,99 @@ import { Star, Quote } from 'lucide-react';
 
 const TestimonialsSection = () => {
   const testimonials = [
-    {
-      id: 1,
-      name: "Arjun Mehta",
-      rank: "AIR 47, JEE Advanced",
-      image: "https://images.unsplash.com/photo-1507003211169-0a1dd7228f2d?w=100&h=100&fit=crop&crop=face",
-      text: "SharmaJEE's teaching methodology is exceptional. The way complex concepts are broken down made Physics and Chemistry so much easier to understand. Highly recommended!",
-      rating: 5,
-      year: "2023"
-    },
-    {
-      id: 2,
-      name: "Priya Sharma",
-      rank: "AIR 156, JEE Advanced",
-      image: "https://images.unsplash.com/photo-1494790108755-2616b332c86c?w=100&h=100&fit=crop&crop=face",
-      text: "The mock tests and doubt clearing sessions were game-changers for me. I improved my score by 150+ marks in just 6 months of preparation with SharmaJEE.",
-      rating: 5,
-      year: "2023"
-    },
-    {
-      id: 3,
-      name: "Rohit Kumar",
-      rank: "AIR 289, JEE Advanced",
-      image: "https://images.unsplash.com/photo-1472099645785-5658abf4ff4e?w=100&h=100&fit=crop&crop=face",
-      text: "The personalized attention and study plan helped me stay focused. Mathematics became my strongest subject thanks to the excellent problem-solving techniques taught here.",
-      rating: 5,
-      year: "2022"
-    },
-    {
-      id: 4,
-      name: "Sneha Patel",
-      rank: "AIR 92, JEE Advanced",
-      image: "https://images.unsplash.com/photo-1438761681033-6461ffad8d80?w=100&h=100&fit=crop&crop=face",
-      text: "SharmaJEE doesn't just teach you concepts, they teach you how to think and approach problems. This approach helped me crack even the toughest questions in the exam.",
-      rating: 5,
-      year: "2023"
-    },
-    {
-      id: 5,
-      name: "Riya Kapoor",
-      rank: "AIR 110, JEE Advanced",
-      image: "https://images.unsplash.com/photo-1544005313-94ddf0286df2?w=100&h=100&fit=crop&crop=face",
-      text: "The innovative teaching techniques and personalized strategies offered at SharmaJEE gave me the edge I needed. A true game-changer in exam preparation!",
-      rating: 5,
-      year: "2023"
-    },
-    {
-      id: 6,
-      name: "Manish Gupta",
-      rank: "AIR 205, JEE Advanced",
-      image: "https://images.unsplash.com/photo-1527980965255-d3b416303d12?w=100&h=100&fit=crop&crop=face",
-      text: "SharmaJEE goes beyond standard coaching. Their unique and energetic approach pushes you to think differently and approach problems with confidence.",
-      rating: 5,
-      year: "2022"
-    }
-  ];
+  {
+    id: 1,
+    name: "Aditya Yadav",
+    rank: "IIT Delhi",
+    image: "/Testimonial/Aditya.png",
+    text: "My IIT journey began late, but finding the right teacher changed everything. Vaibhav Sir made boring topics interesting and supported me every step of the way.",
+    rating: 5,
+    year: "2024"
+  },
+  {
+    id: 2,
+    name: "Aviral Agarwal",
+    rank: "IIT Kharagpur",
+    image: "/Testimonial/Aviral.png",
+    text: "I had settled for an average rank, but Vaibhav Sir made me believe I could achieve under AIR 1000. That belief changed everything and helped me succeed.",
+    rating: 5,
+    year: "2024"
+  },
+  {
+    id: 3,
+    name: "Dhruv Dhupar",
+    rank: "IIT Delhi",
+    image: "/Testimonial/Dhruv.png",
+    text: "My marks weren’t great at first, but Vaibhav Bhaiya’s support made all the difference. I became confident, and his guidance extended even after JEE.",
+    rating: 5,
+    year: "2024"
+  },
+  {
+    id: 4,
+    name: "Harsh Shankar Pandey",
+    rank: "NIT Allahabad",
+    image: "/Testimonial/harshPandey.png",
+    text: "Vaibhav Bhaiya’s calm and clear teaching style made Maths easy to grasp. His mentorship continued even after I got into NIT, helping me beyond academics.",
+    rating: 5,
+    year: "2024"
+  },
+  {
+    id: 5,
+    name: "Ishwin Kumar",
+    rank: "IIT Kanpur",
+    image: "/Testimonial/Ishwin.png",
+    text: "This journey taught me consistency. Vaibhav Bhaiya treated us like younger siblings and believed in us even when we doubted ourselves.",
+    rating: 5,
+    year: "2024"
+  },
+  {
+    id: 6,
+    name: "Molik Tyagi",
+    rank: "IIT Mandi",
+    image: "/Testimonial/MolikTyagi.png",
+    text: "Balancing boards and JEE was tough, but Vaibhav Bhaiya helped me through it. His motivation after my Olympiad failure kept me going strong.",
+    rating: 5,
+    year: "2024"
+  },
+  {
+    id: 7,
+    name: "Mudit Tiwari",
+    rank: "IIT Indore",
+    image: "/Testimonial/Mudit.png",
+    text: "Vaibhav Bhaiya is approachable, humorous, and motivating. His positive attitude made every class enjoyable and learning stress-free.",
+    rating: 5,
+    year: "2024"
+  },
+  {
+    id: 8,
+    name: "Navrun Singh",
+    rank: "IIIT Delhi",
+    image: "/Testimonial/Navrun.png",
+    text: "My JEE journey had its ups and downs, but Vaibhav Sir guided me through it all. After my first Mains attempt, his mentorship helped me recover and improve.",
+    rating: 5,
+    year: "2024"
+  },
+  
+  {
+    id: 9,
+    name: "Subal Manchanda",
+    rank: "IIT Hyderabad",
+    image: "/Testimonial/Subal.png",
+    text: "When Vaibhav Bhaiya taught Maths, four hours felt like minutes. His sessions were fun, engaging, and something I’ll always cherish.",
+    rating: 5,
+    year: "2024"
+  },
+  {
+    id: 10,
+    name: "Utkarsh Garg",
+    rank: "IIIT Delhi",
+    image: "/Testimonial/UtkarshGarg.png",
+    text: "He wasn’t just a teacher; he was a mentor. His practical advice and chill class environment made learning smooth and effective.",
+    rating: 5,
+    year: "2024"
+  }
+];
+
   
   return (<>
     
@@ -122,13 +160,13 @@ const TestimonialsSection = () => {
         <div className="text-center mt-16">
           <div className="inline-flex items-center space-x-6 bg-white px-8 py-6 rounded-2xl shadow-lg">
             <div className="text-center">
-              <div className="text-3xl font-bold text-blue-600 mb-1">500+</div>
+              <div className="text-3xl font-bold text-blue-600 mb-1">50+</div>
               <div className="text-gray-600 text-sm">JEE Qualifiers</div>
             </div>
             <div className="w-px h-12 bg-gray-200" />
             <div className="text-center">
-              <div className="text-3xl font-bold text-purple-600 mb-1">50+</div>
-              <div className="text-gray-600 text-sm">AIR Under 100</div>
+              <div className="text-3xl font-bold text-purple-600 mb-1">10+</div>
+              <div className="text-gray-600 text-sm">AIR Under 5000</div>
             </div>
             <div className="w-px h-12 bg-gray-200" />
             <div className="text-center">
