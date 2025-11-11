@@ -79,7 +79,7 @@ const students = [
     id: 7,
     name: "Mudit Tiwari",
     college: "IIT Indore",
-    image: "/HomePage/StudentTestimonials/Mudit-iitIndore.png",
+    image: "/HomePage/StudentTestimonials/Mudit-iitIndore.png?w=100&h=100&fit=crop&crop=face",
     videoUrl: "https://www.youtube.com/embed/pl7fCtEdXYc",
     testimonial: (
       <p className="text-gray-700 text-center">
