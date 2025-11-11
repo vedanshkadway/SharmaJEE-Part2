@@ -44,7 +44,7 @@ export default function FlipCard({
           <div className="relative mb-6">
 
 
-            <Image
+            <img
               src={studentPhoto}
               alt="Student"
               width={100}
