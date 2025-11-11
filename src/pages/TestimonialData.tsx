@@ -7,7 +7,7 @@ const students = [
     id: 1,
     name: "Aditya Yadav",
     college: "IIT Delhi",
-    image: "/HomePage/StudentTestimonials/Aditya-iitDelhi.png",
+    image: "/Testimonial/Aditya.webp",
     videoUrl: "https://www.youtube.com/embed/8g_5jr9HXXo",
     testimonial: (
       <p className="text-gray-700 text-center">
@@ -19,7 +19,7 @@ const students = [
     id: 2,
     name: "Aviral Agarwal",
     college: "IIT Kharagpur",
-    image: "/HomePage/StudentTestimonials/Aviral-iitKgp.png",
+    image: "/Testimonial/Aviral.webp",
     videoUrl: "https://www.youtube.com/embed/mA7j85gudHY",
     testimonial: (
       <p className="text-gray-700 text-center">
@@ -31,7 +31,7 @@ const students = [
     id: 3,
     name: "Dhruv Dhupar",
     college: "IIT Delhi",
-    image: "/HomePage/StudentTestimonials/Dhruv-iitDelhi.png",
+    image: "/Testimonial/Dhruv.webp",
     videoUrl: "https://www.youtube.com/embed/zfgKf6p5Pwc",
     testimonial: (
       <p className="text-gray-700 text-center">
@@ -43,7 +43,7 @@ const students = [
     id: 4,
     name: "Avni Agnihotri",
     college: "IGDTUW Delhi",
-    image: "/HomePage/StudentTestimonials/Avni-Igdtuw.png",
+    image: "/Testimonial/Avni.webp",
     videoUrl: "https://www.youtube.com/embed/4QE7Ni3taHg",
     testimonial: (
       <p className="text-gray-700 text-center">
@@ -53,9 +53,9 @@ const students = [
   },
   {
     id: 5,
-    name: "Iswin Kumar",
+    name: "Ishwin Kumar",
     college: "IIT Kanpur",
-    image: "/HomePage/StudentTestimonials/Ishwin-iitKanpur.png",
+    image: "/Testimonial/Ishwin.webp",
     videoUrl: "https://www.youtube.com/embed/TDfjBFTBBcs",
     testimonial: (
       <p className="text-gray-700 text-center">
@@ -67,7 +67,7 @@ const students = [
     id: 6,
     name: "Molik Tyagi",
     college: "IIT Mandi",
-    image: "/HomePage/StudentTestimonials/molik-iitMandi.png",
+    image: "/Testimonial/MolikTyagi.webp",
     videoUrl: "https://www.youtube.com/embed/3a3ZkoRnrAQ",
     testimonial: (
       <p className="text-gray-700 text-center">
@@ -79,7 +79,7 @@ const students = [
     id: 7,
     name: "Mudit Tiwari",
     college: "IIT Indore",
-    image: "/HomePage/StudentTestimonials/Mudit-iitIndore.png?w=100&h=100&fit=crop&crop=face",
+    image: "/Testimonial/Mudit.webp",
     videoUrl: "https://www.youtube.com/embed/pl7fCtEdXYc",
     testimonial: (
       <p className="text-gray-700 text-center">

@@ -12,7 +12,7 @@ const Testimonials = () => {
     name: "Aashna Suman",
     college: "",
     rank: "",
-    image: "/Testimonial/Aashna.png",
+    image: "/Testimonial/Aashna.webp",
     rating: 5,
     testimonial:
       "This journey was a big step for me. Vaibhav Bhaiya has been one of the most helpful and interactive teachers I’ve ever met. More than a teacher, he feels like a friend who truly understands his students. His emotional support, encouragement, and unique teaching style kept me motivated and confident throughout my preparation.",
@@ -24,7 +24,7 @@ const Testimonials = () => {
     name: "Aditya Yadav",
     college: "IIT Delhi",
     rank: "",
-    image: "/Testimonial/Aditya.png",
+    image: "/Testimonial/Aditya.webp",
     rating: 5,
     testimonial:
       "My IIT journey started late, but Vaibhav Sir changed everything. His engaging style made even boring math topics fun. I once texted him at 3 AM with a doubt, and he replied instantly! His constant guidance helped me crack JEE Advanced with confidence, and that emotional connection with him still remains strong.",
@@ -36,7 +36,7 @@ const Testimonials = () => {
     name: "Ananya Bhardwaj",
     college: "IGDTUW",
     rank: "",
-    image: "/Testimonial/Ananya.png",
+    image: "/Testimonial/Ananya.webp",
     rating: 5,
     testimonial:
       "Math was my weakest subject. I almost gave up, but after personal classes with Vaibhav Sir, everything changed. He tracked my tests, gave me focused strategies, and helped me rebuild my confidence. His mentorship made me believe I could actually enjoy and excel at Math.",
@@ -48,7 +48,7 @@ const Testimonials = () => {
     name: "Aniket Saxena",
     college: "",
     rank: "",
-    image: "/Testimonial/Aniket.png",
+    image: "/Testimonial/Aniket.webp",
     rating: 5,
     testimonial:
       "This journey taught me discipline and the importance of deadlines. Vaibhav Bhaiya was like an elder brother—someone I could discuss anything with. His classes were full of energy, humor, and deep learning. I even started loving coordinate geometry, which I once disliked!",
@@ -60,7 +60,7 @@ const Testimonials = () => {
     name: "Anshika Sharma",
     college: "IGDTUW",
     rank: "",
-    image: "/Testimonial/Anshika.png",
+    image: "/Testimonial/Anshika.webp",
     rating: 5,
     testimonial:
       "Vaibhav Sir was more than a teacher—he felt like a caring elder brother. He could tell when I didn’t understand something just by my expression and patiently explained it again without making me feel bad. His constant motivation helped me push through my drop year.",
@@ -72,7 +72,7 @@ const Testimonials = () => {
     name: "Anushree",
     college: "IGDTUW",
     rank: "",
-    image: "/Testimonial/Anushree.png",
+    image: "/Testimonial/Anushree.webp",
     rating: 5,
     testimonial:
       "This journey boosted my confidence, especially in Math. Vaibhav Sir taught every concept in depth and made sure every doubt was cleared—no matter how many times I asked. That patience and dedication made me love learning again.",
@@ -84,7 +84,7 @@ const Testimonials = () => {
     name: "Arpit Singh",
     college: "",
     rank: "",
-    image: "/Testimonial/ArpitSingh.png",
+    image: "/Testimonial/ArpitSingh.webp",
     rating: 5,
     testimonial:
       "This journey taught me how to handle pressure. Just like Chandragupta had Chanakya, I had Vaibhav Sir—guiding me every step of the way. He supported me academically and personally. Whatever I’ve achieved today is because of his mentorship.",
@@ -96,7 +96,7 @@ const Testimonials = () => {
     name: "Aviral Agarwal, IIT Kharagpur",
     college: "IIT Kharagpur",
     rank: "",
-    image: "/Testimonial/Aviral.png",
+    image: "/Testimonial/Aviral.webp",
     rating: 5,
     testimonial:
       "My JEE journey was transformative. I had mentally settled for an average rank, but Vaibhav Sir made me believe that even under AIR 1000 was possible. That belief changed my mindset completely and helped me reach my goal.",
@@ -108,7 +108,7 @@ const Testimonials = () => {
     name: "Avni Agnihotri",
     college: "IGDTUW",
     rank: "",
-    image: "/Testimonial/Avni.png",
+    image: "/Testimonial/Avni.webp",
     rating: 5,
     testimonial:
       "The JEE journey taught me perseverance and discipline. Vaibhav Sir made Maths enjoyable, clearing tough concepts with patience. His humor kept the class fun, and his guidance helped me bridge the gap between Mains and Advanced.",
@@ -120,7 +120,7 @@ const Testimonials = () => {
     name: "Dhruv Dhupar",
     college: "IIT Delhi",
     rank: "",
-    image: "/Testimonial/Dhruv.png",
+    image: "/Testimonial/Dhruv.webp",
     rating: 5,
     testimonial:
       "When I started coaching, my marks were low, but Vaibhav Bhaiya made me feel comfortable sharing doubts. Gradually, my confidence grew, and I started performing better. He even guided me about college life later on.",
@@ -132,7 +132,7 @@ const Testimonials = () => {
     name: "Harsh Shankar Pandey, NIT Allahabad",
     college: "NIT Allahabad",
     rank: "",
-    image: "/Testimonial/harshPandey.png",
+    image: "/Testimonial/harshPandey.webp",
     rating: 5,
     testimonial:
       "Nothing in life comes easy—this journey proved it. Vaibhav Bhaiya’s calm, concept-driven approach made Maths feel simple. His mentoring continued even after I joined college, and I’m grateful for his constant support.",
@@ -144,7 +144,7 @@ const Testimonials = () => {
     name: "Ikjot Singh",
     college: "",
     rank: "",
-    image: "/Testimonial/Ikjot.png",
+    image: "/Testimonial/Ikjot.webp",
     rating: 4,
     testimonial:
       "This journey taught me self-discipline and how to prioritize. Vaibhav Bhaiya supported me through every high and low. His mentorship and care truly shaped my growth.",
@@ -156,7 +156,7 @@ const Testimonials = () => {
     name: "Ishank Gupta",
     college: "IIIT Delhi",
     rank: "",
-    image: "/Testimonial/Ishank.png",
+    image: "/Testimonial/Ishank.webp",
     rating: 5,
     testimonial:
       "At my lowest point in Class 12, I couldn’t solve even simple problems. Vaibhav Bhaiya was always there to guide me. His advice — 'Just keep going, don’t stop' — gave me strength to push through.",
@@ -168,7 +168,7 @@ const Testimonials = () => {
     name: "Ishwin Kumar",
     college: "IIT Kanpur",
     rank: "",
-    image: "/Testimonial/Ishwin.png",
+    image: "/Testimonial/Ishwin.webp",
     rating: 5,
     testimonial:
       "Consistency is what I learned from Vaibhav Bhaiya. His teaching was clear and engaging, and his emotional support made tough times easier. He believed in me even when I doubted myself.",
@@ -180,7 +180,7 @@ const Testimonials = () => {
     name: "Mohammad Saqib",
     college: "DTU",
     rank: "",
-    image: "/Testimonial/Saqib.png",
+    image: "/Testimonial/Saqib.webp",
     rating: 5,
     testimonial:
       "As a dropper, this journey was my second chance. Vaibhav Bhaiya was approachable, supportive, and always there to help—academically and personally. His mentorship made my JEE prep much smoother.",
@@ -192,7 +192,7 @@ const Testimonials = () => {
     name: "Molik Tyagi",
     college: "IIT Mandi",
     rank: "",
-    image: "/Testimonial/MolikTyagi.png",
+    image: "/Testimonial/MolikTyagi.webp",
     rating: 5,
     testimonial:
       "Balancing boards and JEE in 12th was hard, but Vaibhav Bhaiya handled all my Maths doubts. When I failed Olympiads, his personal motivation lifted me up. His support meant the world to me.",
@@ -204,7 +204,7 @@ const Testimonials = () => {
     name: "Chandramauli Joarder",
     college: "",
     rank: "",
-    image: "/Testimonial/Chandramauli.png",
+    image: "/Testimonial/Chandramauli.webp",
     rating: 5,
     testimonial:
       "My JEE journey taught me resilience and hard work. Vaibhav Bhaiya’s humor made classes stress-free and kept everyone engaged. He created a positive environment that made even tough topics enjoyable.",
@@ -216,7 +216,7 @@ const Testimonials = () => {
     name: "Mudit Tiwari",
     college: "IIT Indore",
     rank: "",
-    image: "/Testimonial/Mudit.png",
+    image: "/Testimonial/Mudit.webp",
     rating: 5,
     testimonial:
       "Vaibhav Bhaiya is approachable, funny, and an amazing mentor. His humor and personality make it easy to discuss problems without hesitation. His sessions were both helpful and fun.",
@@ -228,7 +228,7 @@ const Testimonials = () => {
     name: "Navrun Singh",
     college: "IIIT Delhi",
     rank: "",
-    image: "/Testimonial/Navrun.png",
+    image: "/Testimonial/Navrun.webp",
     rating: 5,
     testimonial:
       "My JEE journey had ups and downs, but Vaibhav Sir guided me throughout. After my first JEE Mains didn’t go well, he helped me reset and prepare better for the next attempt. His mentorship was invaluable.",
@@ -240,7 +240,7 @@ const Testimonials = () => {
     name: "Pranjal Gangwani",
     college: "BITS Goa",
     rank: "",
-    image: "/Testimonial/Pranjal.png",
+    image: "/Testimonial/Pranjal.webp",
     rating: 5,
     testimonial:
       "From 10th grade onward, Vaibhav Bhaiya has been more than just a teacher. He made me fall in love with Math and taught me how to stay calm under pressure. His care and positivity inspired me a lot.",
@@ -252,7 +252,7 @@ const Testimonials = () => {
     name: "Priyal Anand",
     college: "IGDTUW",
     rank: "",
-    image: "/Testimonial/Priyal.png",
+    image: "/Testimonial/Priyal.webp",
     rating: 5,
     testimonial:
       "This journey taught me consistency. Vaibhav Bhaiya reminded us that it’s not about studying for hours but showing up every day. His advice to focus on the process, not just results, changed my approach completely.",
@@ -264,7 +264,7 @@ const Testimonials = () => {
     name: "Riddhi Sood",
     college: "",
     rank: "",
-    image: "/Testimonial/Riddhi.png",
+    image: "/Testimonial/Riddhi.webp",
     rating: 5,
     testimonial:
       "This journey was challenging, but Vaibhav Bhaiya guided and supported me through it all. He connected personally with every student and taught us that staying strong is a victory in itself.",
@@ -276,7 +276,7 @@ const Testimonials = () => {
     name: "Subal Manchanda, IIT Hyderabad",
     college: "IIT Hyderabad",
     rank: "",
-    image: "/Testimonial/Subal.png",
+    image: "/Testimonial/Subal.webp",
     rating: 5,
     testimonial:
       "Whenever Vaibhav Bhaiya taught Maths, four hours passed like minutes. His sessions were both informative and fun. Learning from him was one of the best parts of my journey.",
@@ -288,7 +288,7 @@ const Testimonials = () => {
     name: "Utkarsh Garg",
     college: "IIIT Delhi",
     rank: "",
-    image: "/Testimonial/UtkarshGarg.png",
+    image: "/Testimonial/UtkarshGarg.webp",
     rating: 5,
     testimonial:
       "He wasn’t just a teacher; he was a mentor. His practical guidance and relaxed classroom environment made learning smooth and enjoyable. He truly shaped my approach to studying.",
