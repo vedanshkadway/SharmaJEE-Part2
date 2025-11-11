@@ -1,41 +1,83 @@
 import { Trophy, TrendingUp, Award, Star, GraduationCap, Target, ArrowUp } from 'lucide-react';
 import Header from '../components/Header';
 import Footer from '../components/Footer';
+import { percent } from 'motion/react';
 
 const Results = () => {
   const topRankers = [
     {
-      name: "Arjun Mehta",
-      previousRank: "AIR 580",
-      currentRank: "AIR 47",
-      exam: "JEE Advanced 2023",
+      name: "Saransh Gupta",
+      previousRank: "65 Percentile",
+      currentRank: "98.2 Percentile",
+      exam: "JEE Main 2024",
       college: "IIT Bombay - Computer Science",
-      improvement: 533
+      improvement: 33.2,
+      image: "/Testimonial/Saransh.webp"
     },
     {
-      name: "Priya Sharma", 
-      previousRank: "AIR 890",
-      currentRank: "AIR 92",
-      exam: "JEE Advanced 2023",
+      name: "Saquib Siddique", 
+      previousRank: "80 Percentile",
+      currentRank: "97.9 Percentile",
+      exam: "JEE Main 2024",
       college: "IIT Delhi - Electrical Engineering",
-      improvement: 798
+      improvement: 17.9,
+      image: "/Testimonial/Saquib.webp"
     },
     {
-      name: "Rohit Kumar",
-      previousRank: "AIR 1200",
-      currentRank: "AIR 156",
-      exam: "JEE Advanced 2023", 
-      college: "IIT Kanpur - Mechanical Engineering",
-      improvement: 1044
+      name: "Navrun Singh",
+      previousRank: "84.2 Percentile",
+      currentRank: "97.6 Percentile",
+      exam: "JEE Main 2024", 
+      college: "IIIT Delhi",
+      improvement: 13.4,
+      image: "/Result/Navrun.webp"
     },
     {
-      name: "Sneha Patel",
-      previousRank: "AIR 750",
-      currentRank: "AIR 203",
-      exam: "JEE Advanced 2022",
-      college: "IIT Madras - Chemical Engineering",
-      improvement: 547
+      name: "Harsh Shankar Pandey",
+      previousRank: "97.1 Percentile",
+      currentRank: "99.5 Percentile",
+      exam: "JEE Main 2024",
+      college: "NIT Allahabad - Computer Science",
+      improvement: 2.4,
+      image: "/Result/harshPandey.webp"
+    },
+    {
+      name: "Aadya Arya",
+      previousRank: "84.7 Percentile",
+      currentRank: "92 Percentile",
+      exam: "JEE Main 2024",
+      college: "NIT Allahabad - Computer Science ",
+      improvement: 7.3,
+      image: "/Result/Aadya.webp"
+    },
+    {
+      name: "Ikjot Singh",
+      previousRank: "74.5 Percentile",
+      currentRank: "89.1 Percentile",
+      exam: "JEE Main 2024",
+      college: "NIT Allahabad - Computer Science",
+      improvement: 14.6,
+      image: "/Result/Ikjot.webp"
+    },
+    {
+      name: "Pradeep Jangir",
+      previousRank: "98.2 Percentile",
+      currentRank: "98.9 Percentile",
+      exam: "JEE Main 2024",
+      college: "NIT Allahabad - Computer Science",
+      improvement: 0.7,
+      image: "/Result/Pradeep.webp"
+    },
+    {
+      name: "Vatsal Dwivedi",
+      previousRank: "80.5 Percentile",
+      currentRank: "87.5 Percentile",
+      exam: "JEE Main 2024",
+      college: "NIT Allahabad - Computer Science",
+      improvement: 7.0,
+      image: "/Result/Vatsal.webp"
     }
+
   ];
 
   const yearlyStats = [
@@ -126,7 +168,7 @@ const Results = () => {
               >
                 <div className="bg-gradient-to-br from-blue-50 to-blue-100 p-8 rounded-2xl hover:shadow-lg transition-all duration-300 group-hover:scale-105">
                   <div className="inline-flex p-4 rounded-2xl bg-blue-600 bg-opacity-10 mb-6 group-hover:scale-110 transition-transform duration-300">
-                    <achievement.icon className="h-8 w-8 text-blue-600" />
+                    <achievement.icon className="h-8 w-8 text-blue-600" />  
                   </div>
                   <h3 className="text-2xl font-bold text-gray-900 mb-3">{achievement.title}</h3>
                   <p className="text-gray-600">{achievement.description}</p>
@@ -158,8 +200,13 @@ const Results = () => {
               >
                 <div className="bg-gradient-to-br from-blue-600 to-blue-800 p-6 text-white">
                   <div className="text-center mb-4">
+                    
                     <div className="w-16 h-16 bg-blue-500 rounded-full flex items-center justify-center mx-auto mb-3">
-                      <GraduationCap className="h-8 w-8 text-white" />
+                      <img
+                        src={student.image}
+                        alt={student.name}
+                        className="w-14 h-14 rounded-full object-cover"
+                      />
                     </div>
                     <h3 className="text-xl font-bold">{student.name}</h3>
                   </div>
@@ -179,7 +226,7 @@ const Results = () => {
                     </div>
                     <div className="text-center">
                       <div className="bg-blue-500 text-white px-3 py-1 rounded-full text-sm font-bold">
-                        +{student.improvement} ranks improved!
+                        +{student.improvement} percentile increased!
                       </div>
                     </div>
                   </div>
