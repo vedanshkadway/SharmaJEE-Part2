@@ -103,17 +103,17 @@ Sector 53, Gurgoan.</a>
               © 2025 SharmaJEE. All rights reserved. Empowering future engineers.
             </p>
             <div className="flex space-x-6 mt-4 md:mt-0">
-              <a href="#" className="text-gray-400 hover:text-white text-sm transition-colors duration-300">
+              <a href="https://courses.sharmajee.com/privacypolicy" target = "_blank" className="text-gray-400 hover:text-white text-sm transition-colors duration-300">
                 Privacy Policy
               </a>
-              <a href="#" className="text-gray-400 hover:text-white text-sm transition-colors duration-300">
+              <a href="https://courses.sharmajee.com/termsofuse" target="_blank" className="text-gray-400 hover:text-white text-sm transition-colors duration-300">
                 Terms of Service
               </a>
-              <a href="#" className="text-gray-400 hover:text-white text-sm transition-colors duration-300">
+              <a href="https://courses.sharmajee.com/refundpolicy" target="_blank" className="text-gray-400 hover:text-white text-sm transition-colors duration-300">
                 Refund Policy
               </a>
-              <a href="#" className="text-gray-400 hover:text-white text-sm transition-colors duration-300">
-                Terms of Service
+              <a href="https://courses.sharmajee.com/contactus" target="_blank" className="text-gray-400 hover:text-white text-sm transition-colors duration-300">
+                Contact Us
               </a>
             </div>
           </div>

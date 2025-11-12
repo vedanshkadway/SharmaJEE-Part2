@@ -11,7 +11,9 @@ import Testimonials from "./pages/Testimonials";
 import FAQ from "./pages/FAQ";
 import NotFound from "./pages/NotFound";
 import MyCourses from "./pages/MyCourses";
-import CoursesNotFound from "./pages/CoursesNotFound";
+// import CoursesNotFound, { Courses } from "./pages/CoursesNotFound";
+import Coming from "./pages/Coming";
+import Courses from "./pages/Courses";
 
 const queryClient = new QueryClient();
 
@@ -27,10 +29,11 @@ const App = () => (
           <Route path="/about" element={<About />} />
           <Route path="/results" element={<Results />} />
           <Route path="/testimonials" element={<Testimonials />} />
-          <Route path="/courses" element={<CoursesNotFound/>} />
+          <Route path="/courses" element={<Courses/>} />
           
           <Route path="/faq" element={<FAQ />} />
           <Route path="*" element={<NotFound />} />
+          <Route path="/coming" element={<Coming />} />
         </Routes>
       </BrowserRouter>
     </TooltipProvider>

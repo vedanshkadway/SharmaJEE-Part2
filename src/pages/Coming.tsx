@@ -4,7 +4,7 @@ import Header from '../components/Header'
 import Footer from '@/components/Footer'
 // import { Footer } from 'react-day-picker'
 
-const CoursesNotFound: React.FC = () => {
+const Coming: React.FC = () => {
     return (
         <>
             <Header />
@@ -13,7 +13,7 @@ const CoursesNotFound: React.FC = () => {
                     <h1 id="wip-title">Work in Progress</h1>
 
                     <p>
-                        This page is currently under work. We're working to bring you updated course information and features. Please check back soon.
+                        This page is currently under work. We're working to bring you updated course information and Modules. Please check back soon.
                     </p>
 
                     <div style={{ marginTop: '1.5rem', display: 'flex', gap: '1rem', justifyContent: 'center' }}>
@@ -31,4 +31,4 @@ const CoursesNotFound: React.FC = () => {
     )
 }
 
-export default CoursesNotFound;
+export default Coming;

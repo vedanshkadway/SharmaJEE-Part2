@@ -1,7 +1,9 @@
 
 import { Book, Calculator, Atom, Beaker, CheckCircle } from 'lucide-react';
+import { useNavigate } from 'react-router-dom';
 
 const ModulesSection = () => {
+  const navigate = useNavigate();
   const modules = [
     {
       id: 1,
@@ -96,7 +98,7 @@ const ModulesSection = () => {
                 </div>
 
                 <div className="mt-8 pt-6 border-t border-gray-100">
-                  <button className={`w-full py-3 bg-gradient-to-r ${module.color} text-white rounded-lg font-semibold hover:scale-105 transition-all duration-300 shadow-lg hover:shadow-xl`}>
+                  <button onClick={()=> navigate("/coming")} className={`w-full py-3 bg-gradient-to-r ${module.color} text-white rounded-lg font-semibold hover:scale-105 transition-all duration-300 shadow-lg hover:shadow-xl`}>
                     Explore {module.subject}
                   </button>
                 </div>

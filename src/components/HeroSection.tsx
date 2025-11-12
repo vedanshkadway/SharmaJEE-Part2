@@ -104,7 +104,7 @@ const HeroSection = () => {
 
         {/* Enhanced Scroll indicator with Animation */}
         <div className="absolute bottom-12 left-1/2 transform -translate-x-1/2 animate-bounce">
-          <div className="bg-blue-600/20 backdrop-blur-md rounded-full p-4 border border-blue-400/30 hover:bg-blue-600/30 hover:scale-110 transition-all duration-300 cursor-pointer group">
+          <div className="bg-blue-600/20 backdrop-blur-md rounded-full p-4 border border-blue-400/30 hover:bg-blue-600/30 hover:scale-110 transition-all duration-300 cursor-pointer group transform translate-y-10">
             <ArrowDown className="h-6 w-6 text-blue-200 group-hover:text-white transition-colors duration-300" />
           </div>
         </div>

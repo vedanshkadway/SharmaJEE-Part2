@@ -24,8 +24,8 @@ const AboutVaibhav: React.FC = () => {
                                         />
                                     </div>
                                     <div className="absolute -bottom-6 -right-6 bg-gradient-to-r from-blue-800 to-blue-600 text-white p-4 rounded-2xl shadow-xl">
-                                        <div className="text-2xl font-bold">IIT Mandi</div>
-                                        <div className="text-sm opacity-90">2017-2021</div>
+                                        <div className="text-2xl font-bold">Vaibhav Sharma</div>
+                                        <div className="text-sm text-center opacity-90">IIT Mandi</div>
                                     </div>
                                 </div>
                             </div>
@@ -43,7 +43,7 @@ const AboutVaibhav: React.FC = () => {
                                         Achieving good rank  in JEE Advanced and graduating with honors from IIT Mandi opened my eyes to a profound truth: JEE success transcends mere knowledge - it demands deep conceptual understanding, strategic application, and most importantly, the right mentorship.
                                     </p>
                                     <p>
-                                        This revelation inspired the birth of SharmaJEE in 2023. What commenced as mentoring a select group of students has evolved into a comprehensive platform that has empowered over 100 students to realize their IIT dreams.
+                                        This revelation inspired the birth of SharmaJEE in 2024. What commenced as mentoring a select group of students has evolved into a comprehensive platform that has empowered over 1000 students to realize their IIT dreams.
                                     </p>
                                     <div className="bg-blue-50 p-6 rounded-2xl border-l-4 border-blue-600">
                                         <p className="font-semibold text-blue-900 text-xl">
