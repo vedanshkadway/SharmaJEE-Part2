@@ -1,16 +1,100 @@
 import { Trophy, TrendingUp, Award, Star, GraduationCap, Target, ArrowUp } from 'lucide-react';
 import Header from '../components/Header';
 import Footer from '../components/Footer';
-import { percent } from 'motion/react';
+import { useNavigate } from 'react-router-dom';
+import PlaneCard from '@/components/PlaneCards';
 
 const Results = () => {
+  const navigate = useNavigate();
+  const students = [
+  {
+    id: 1,
+    name: "Aditya Yadav",
+    college: "IIT Delhi",
+    image: "/Testimonial/Aditya.webp",
+    testimonial: (
+      <p className="text-gray-700 text-center">
+        My IIT journey began late, but finding the right teacher changed everything. Vaibhav Sir made even boring topics interesting and was always there to help—even at 3 AM. That emotional connection with him still means a lot to me.
+      </p>
+    ),
+  },
+  {
+    id: 2,
+    name: "Aviral Agarwal",
+    college: "IIT Kharagpur",
+    image: "/Testimonial/Aviral.webp",
+    testimonial: (
+      <p className="text-gray-700 text-center">
+        I had settled for an average rank, but Vaibhav Sir made me believe I could aim higher,under AIR 1000. That mindset shift changed everything, and I ended up securing a top rank in JEE Mains.
+      </p>
+    ),
+  },
+  {
+    id: 3,
+    name: "Dhruv Dhupar",
+    college: "IIT Delhi",
+    image: "/Testimonial/Dhruv.webp",
+    testimonial: (
+      <p className="text-gray-700 text-center">
+        My marks weren’t great at first, but I felt comfortable opening up to Vaibhav Bhaiya. That made all the difference. He supported me throughout, even guiding me about college later on.
+      </p>
+    ),
+  },
+  {
+    id: 4,
+    name: "Avni Agnihotri",
+    college: "IGDTUW Delhi",
+    image: "/Testimonial/Avni.webp",
+    testimonial: (
+      <p className="text-gray-700 text-center">
+        From making Maths easier to guiding me from JEE Mains to Advanced, his support and fun teaching style made a huge difference in my journey.
+      </p>
+    ),
+  },
+  {
+    id: 5,
+    name: "Ishwin Kumar",
+    college: "IIT Kanpur",
+    image: "/Testimonial/Ishwin.webp",
+    testimonial: (
+      <p className="text-gray-700 text-center">
+        This journey taught me the value of consistency. Vaibhav Bhaiya supported us like a true elder brother, both emotionally and academically. He believed in me, even when I doubted myself and that made all the difference.
+      </p>
+    ),
+  },
+  {
+    id: 6,
+    name: "Molik Tyagi",
+    college: "IIT Mandi",
+    image: "/Testimonial/MolikTyagi.webp",
+    testimonial: (
+      <p className="text-gray-700 text-center">
+        Balancing boards and JEE in 12th was tough, but Vaibhav Bhaiya handled all my Maths doubts. After failing to qualify for the Olympiads, his personal motivation lifted me up, and that support meant a lot.
+      </p>
+    ),
+  },
+  {
+    id: 7,
+    name: "Mudit Tiwari",
+    college: "IIT Indore",
+    image: "/Testimonial/Mudit.webp",
+    testimonial: (
+      <p className="text-gray-700 text-center">
+
+        It was a really fun experience, and Vaibhav Bhaiya proved to be a great and approachable teacher. His sense of humor makes learning easy and relaxed, and you can comfortably share your problems with him.
+
+
+
+      </p>
+    ),
+  }
+];
   const topRankers = [
     {
       name: "Saransh Gupta",
       previousRank: "65 Percentile",
       currentRank: "98.2 Percentile",
       exam: "JEE Main 2024",
-      college: "IIT Bombay - Computer Science",
       improvement: 33.2,
       image: "/Testimonial/Saransh.webp"
     },
@@ -19,63 +103,59 @@ const Results = () => {
       previousRank: "80 Percentile",
       currentRank: "97.9 Percentile",
       exam: "JEE Main 2024",
-      college: "IIT Delhi - Electrical Engineering",
       improvement: 17.9,
-      image: "/Testimonial/Saquib.webp"
-    },
-    {
-      name: "Navrun Singh",
-      previousRank: "84.2 Percentile",
-      currentRank: "97.6 Percentile",
-      exam: "JEE Main 2024", 
-      college: "IIIT Delhi",
-      improvement: 13.4,
-      image: "/Result/Navrun.webp"
-    },
-    {
-      name: "Harsh Shankar Pandey",
-      previousRank: "97.1 Percentile",
-      currentRank: "99.5 Percentile",
-      exam: "JEE Main 2024",
-      college: "NIT Allahabad - Computer Science",
-      improvement: 2.4,
-      image: "/Result/harshPandey.webp"
-    },
-    {
-      name: "Aadya Arya",
-      previousRank: "84.7 Percentile",
-      currentRank: "92 Percentile",
-      exam: "JEE Main 2024",
-      college: "NIT Allahabad - Computer Science ",
-      improvement: 7.3,
-      image: "/Result/Aadya.webp"
+      image: "/Result/Saqib.webp"
     },
     {
       name: "Ikjot Singh",
       previousRank: "74.5 Percentile",
       currentRank: "89.1 Percentile",
       exam: "JEE Main 2024",
-      college: "NIT Allahabad - Computer Science",
       improvement: 14.6,
       image: "/Result/Ikjot.webp"
     },
+    {
+      name: "Navrun Singh",
+      previousRank: "84.2 Percentile",
+      currentRank: "97.6 Percentile",
+      exam: "JEE Main 2024", 
+      improvement: 13.4,
+      image: "/Result/Navrun.webp"
+    },
+    
+    {
+      name: "Aadya Arya",
+      previousRank: "84.7 Percentile",
+      currentRank: "92 Percentile",
+      exam: "JEE Main 2024",
+      improvement: 7.3,
+      image: "/Result/Aadya.webp"
+    },
+    {
+      name: "Harsh Shankar Pandey",
+      previousRank: "97.1 Percentile",
+      currentRank: "99.5 Percentile",
+      exam: "JEE Main 2024",
+      improvement: 2.4,
+      image: "/Result/harshPandey.webp"
+    },
+    
     {
       name: "Pradeep Jangir",
       previousRank: "98.2 Percentile",
       currentRank: "98.9 Percentile",
       exam: "JEE Main 2024",
-      college: "NIT Allahabad - Computer Science",
       improvement: 0.7,
       image: "/Result/Pradeep.webp"
     },
     {
-      name: "Vatsal Dwivedi",
-      previousRank: "80.5 Percentile",
-      currentRank: "87.5 Percentile",
+      name: "Izma",
+      previousRank: "98.67 Percentile",
+      currentRank: "99.18 Percentile",
       exam: "JEE Main 2024",
-      college: "NIT Allahabad - Computer Science",
-      improvement: 7.0,
-      image: "/Result/Vatsal.webp"
+      improvement: 
+      0.51,
+      image: "/Result/izma.webp"
     }
 
   ];
@@ -234,12 +314,38 @@ const Results = () => {
                 
                 <div className="p-6">
                   <p className="text-blue-600 font-semibold mb-2">{student.exam}</p>
-                  <p className="text-gray-600 text-sm">{student.college}</p>
                 </div>
               </div>
             ))}
           </div>
         </div>
+      </section>
+
+      
+      {/* IIT Students Section */}
+      <section className="py-20 bg-white">
+      <div className="w-full overflow-x-auto bg-gradient-to-br pt-8">
+              <div className="text-center mb-16 ">
+                <h2 className="text-4xl sm:text-5xl font-bold text-gray-900 mb-6">
+                  Success <span className="bg-gradient-to-r text-blue-600">Stories</span>
+                </h2>
+                <p className="text-xl text-gray-600 max-w-2xl mx-auto">
+                  Hear from our students who have achieved their dreams and secured top ranks in JEE.
+                </p>
+              </div>
+              <div className="p-8 bg-slate-100 flex flex-wrap gap-8 justify-center">
+      
+                {students.map((student, index) => (
+                  <PlaneCard
+                    key={index}
+                    studentName={student.name}
+                    collegeName={student.college}
+                    studentPhoto={student.image}
+                    Content={student.testimonial}
+                  />
+                ))}
+              </div>
+            </div>
       </section>
 
       {/* Yearly Performance */}
@@ -268,7 +374,7 @@ const Results = () => {
 
                 <div className="space-y-6">
                   <div className="flex justify-between items-center">
-                    <span className="text-gray-600">% JEE Main Selection</span>
+                    <span className="text-gray-600">% JEE Main 2024 Selection</span>
                     <span className="font-bold text-2xl text-gray-900">{year.totalStudents}%</span>
                   </div>
                   
@@ -316,7 +422,7 @@ const Results = () => {
                 <Target className="inline-block ml-2 h-5 w-5" />
               </button>
               
-              <button className="border-2 border-blue-200 text-blue-100 px-8 py-4 rounded-full font-semibold text-lg hover:bg-blue-200 hover:text-blue-600 transition-all duration-300">
+              <button onClick={()=> navigate("/testimonials")} className="border-2 border-blue-200 text-blue-100 px-8 py-4 rounded-full font-semibold text-lg hover:bg-blue-200 hover:text-blue-600 transition-all duration-300">
                 View All Results
                 <Award className="inline-block ml-2 h-5 w-5" />
               </button>
