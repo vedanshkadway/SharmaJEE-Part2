@@ -53,10 +53,12 @@ const HeroSection = () => {
                 animationDelay: '200ms',
                 textShadow: '0 4px 20px rgba(0,0,0,0.3)'
                 }}>
-                Master the{' '}
+                
                 <span className="bg-gradient-to-r from-yellow-400 via-yellow-300 to-white bg-clip-text text-transparent animate-pulse">
-                  JEE Journey GenZ Style
+                  JEE Journey 
                 </span>
+                <br />
+                <span className='text-7xl'>GenZ Style</span>
           </h1>
           
           {/* Typewriter Effect */}
