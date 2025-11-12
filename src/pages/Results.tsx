@@ -96,7 +96,7 @@ const Results = () => {
       currentRank: "98.2 Percentile",
       exam: "JEE Main 2024",
       improvement: 33.2,
-      image: "/Testimonial/Saransh.webp"
+      image: "/Result/Saransh.webp"
     },
     {
       name: "Saquib Siddique", 
@@ -201,7 +201,7 @@ const Results = () => {
     },
     {
       icon: Award,
-      title: "70K+ Rank Improvement",
+      title: "70K+ Rank Improve",
       description: "Rank improvement from previous attempts"
     },
     {
@@ -417,7 +417,7 @@ const Results = () => {
             </p>
             
             <div className="flex flex-col sm:flex-row gap-6 justify-center">
-              <button className="bg-white text-blue-600 px-8 py-4 rounded-full font-semibold text-lg hover:scale-105 transition-all duration-300 shadow-lg hover:shadow-xl">
+              <button onClick={()=>navigate("/")} className="bg-white text-blue-600 px-8 py-4 rounded-full font-semibold text-lg hover:scale-105 transition-all duration-300 shadow-lg hover:shadow-xl">
                 Start Your Journey
                 <Target className="inline-block ml-2 h-5 w-5" />
               </button>

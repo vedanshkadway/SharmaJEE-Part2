@@ -141,9 +141,7 @@ const TestimonialsSection = () => {
                     alt={testimonial.name}
                     className="w-14 h-14 rounded-full object-cover ring-4 ring-blue-100 group-hover:ring-blue-200 transition-all duration-300"
                     />
-                  <div className="absolute -bottom-1 -right-1 bg-green-500 text-white text-xs px-2 py-1 rounded-full font-bold">
-                    {testimonial.year}
-                  </div>
+                  
                 </div>
                 <div>
                   <h4 className="font-bold text-gray-900 text-lg">{testimonial.name}</h4>
@@ -160,12 +158,12 @@ const TestimonialsSection = () => {
         <div className="text-center mt-16">
           <div className="inline-flex items-center space-x-6 bg-white px-8 py-6 rounded-2xl shadow-lg">
             <div className="text-center">
-              <div className="text-3xl font-bold text-blue-600 mb-1">50+</div>
+              <div className="text-3xl font-bold text-blue-600 mb-1">1000+</div>
               <div className="text-gray-600 text-sm">JEE Qualifiers</div>
             </div>
             <div className="w-px h-12 bg-gray-200" />
             <div className="text-center">
-              <div className="text-3xl font-bold text-purple-600 mb-1">10+</div>
+              <div className="text-3xl font-bold text-purple-600 mb-1">20+</div>
               <div className="text-gray-600 text-sm">AIR Under 5000</div>
             </div>
             <div className="w-px h-12 bg-gray-200" />

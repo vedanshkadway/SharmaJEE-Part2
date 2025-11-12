@@ -3,9 +3,11 @@ import { Star, Quote, Play, Award, Users, MessageSquare } from 'lucide-react';
 import Header from '../components/Header';
 import Footer from '../components/Footer';
 import TestimonialsSection from '@/components/TestimonialsSection';
+import { useNavigate } from 'react-router-dom';
 
 
 const Testimonials = () => {
+  const navigate = useNavigate();
  const detailedTestimonials = [
   {
     id: 1,
@@ -17,7 +19,7 @@ const Testimonials = () => {
     testimonial:
       "This journey was a big step for me. Vaibhav Bhaiya has been one of the most helpful and interactive teachers I’ve ever met. More than a teacher, he feels like a friend who truly understands his students. His emotional support, encouragement, and unique teaching style kept me motivated and confident throughout my preparation.",
     videoUrl: "https://www.youtube.com/embed/ZJja6pMCGhI",
-    year: "2024",
+    year: "2025",
   },
   {
     id: 2,
@@ -29,7 +31,7 @@ const Testimonials = () => {
     testimonial:
       "My IIT journey started late, but Vaibhav Sir changed everything. His engaging style made even boring math topics fun. I once texted him at 3 AM with a doubt, and he replied instantly! His constant guidance helped me crack JEE Advanced with confidence, and that emotional connection with him still remains strong.",
     videoUrl: "https://www.youtube.com/embed/8g_5jr9HXXo",
-    year: "2024",
+    year: "2025",
   },
   {
     id: 3,
@@ -41,7 +43,7 @@ const Testimonials = () => {
     testimonial:
       "Math was my weakest subject. I almost gave up, but after personal classes with Vaibhav Sir, everything changed. He tracked my tests, gave me focused strategies, and helped me rebuild my confidence. His mentorship made me believe I could actually enjoy and excel at Math.",
     videoUrl: "https://www.youtube.com/embed/4A4Qy1eNApw",
-    year: "2024",
+    year: "2025",
   },
   {
     id: 4,
@@ -65,7 +67,7 @@ const Testimonials = () => {
     testimonial:
       "Vaibhav Sir was more than a teacher—he felt like a caring elder brother. He could tell when I didn’t understand something just by my expression and patiently explained it again without making me feel bad. His constant motivation helped me push through my drop year.",
     videoUrl: "https://www.youtube.com/embed/dPRYkhdDMkM",
-    year: "2024",
+    year: "2025",
   },
   {
     id: 6,
@@ -77,7 +79,7 @@ const Testimonials = () => {
     testimonial:
       "This journey boosted my confidence, especially in Math. Vaibhav Sir taught every concept in depth and made sure every doubt was cleared—no matter how many times I asked. That patience and dedication made me love learning again.",
     videoUrl: "https://www.youtube.com/embed/YL6XEA81SdI",
-    year: "2024",
+    year: "2025",
   },
   {
     id: 7,
@@ -89,7 +91,7 @@ const Testimonials = () => {
     testimonial:
       "This journey taught me how to handle pressure. Just like Chandragupta had Chanakya, I had Vaibhav Sir—guiding me every step of the way. He supported me academically and personally. Whatever I’ve achieved today is because of his mentorship.",
     videoUrl: "https://www.youtube.com/embed/XULkrYhcbaM",
-    year: "2024",
+    year: "2025",
   },
   {
     id: 8,
@@ -125,7 +127,7 @@ const Testimonials = () => {
     testimonial:
       "When I started coaching, my marks were low, but Vaibhav Bhaiya made me feel comfortable sharing doubts. Gradually, my confidence grew, and I started performing better. He even guided me about college life later on.",
     videoUrl: "https://www.youtube.com/embed/zfgKf6p5Pwc",
-    year: "2024",
+    year: "2025",
   },
   {
     id: 11,
@@ -137,7 +139,7 @@ const Testimonials = () => {
     testimonial:
       "Nothing in life comes easy—this journey proved it. Vaibhav Bhaiya’s calm, concept-driven approach made Maths feel simple. His mentoring continued even after I joined college, and I’m grateful for his constant support.",
     videoUrl: "https://www.youtube.com/embed/aOCtJAlDOPE",
-    year: "2024",
+    year: "2025",
   },
   {
     id: 12,
@@ -149,7 +151,7 @@ const Testimonials = () => {
     testimonial:
       "This journey taught me self-discipline and how to prioritize. Vaibhav Bhaiya supported me through every high and low. His mentorship and care truly shaped my growth.",
     videoUrl: "https://www.youtube.com/embed/zT1xWF0fZWo",
-    year: "2024",
+    year: "2025",
   },
   {
     id: 13,
@@ -161,7 +163,7 @@ const Testimonials = () => {
     testimonial:
       "At my lowest point in Class 12, I couldn’t solve even simple problems. Vaibhav Bhaiya was always there to guide me. His advice — 'Just keep going, don’t stop' — gave me strength to push through.",
     videoUrl: "https://www.youtube.com/embed/W1KGIA-Sybw",
-    year: "2024",
+    year: "2025",
   },
   {
     id: 14,
@@ -173,7 +175,7 @@ const Testimonials = () => {
     testimonial:
       "Consistency is what I learned from Vaibhav Bhaiya. His teaching was clear and engaging, and his emotional support made tough times easier. He believed in me even when I doubted myself.",
     videoUrl: "https://www.youtube.com/embed/TDfjBFTBBcs",
-    year: "2024",
+    year: "2025",
   },
   {
     id: 15,
@@ -185,7 +187,7 @@ const Testimonials = () => {
     testimonial:
       "As a dropper, this journey was my second chance. Vaibhav Bhaiya was approachable, supportive, and always there to help—academically and personally. His mentorship made my JEE prep much smoother.",
     videoUrl: "https://www.youtube.com/embed/l7iY3TpIbe4",
-    year: "2024",
+    year: "2025",
   },
   {
     id: 16,
@@ -197,7 +199,7 @@ const Testimonials = () => {
     testimonial:
       "Balancing boards and JEE in 12th was hard, but Vaibhav Bhaiya handled all my Maths doubts. When I failed Olympiads, his personal motivation lifted me up. His support meant the world to me.",
     videoUrl: "https://www.youtube.com/embed/3a3ZkoRnrAQ",
-    year: "2024",
+    year: "2025",
   },
   {
     id: 17,
@@ -221,7 +223,7 @@ const Testimonials = () => {
     testimonial:
       "Vaibhav Bhaiya is approachable, funny, and an amazing mentor. His humor and personality make it easy to discuss problems without hesitation. His sessions were both helpful and fun.",
     videoUrl: "https://www.youtube.com/embed/pl7fCtEdXYc",
-    year: "2024",
+    year: "2025",
   },
   {
     id: 19,
@@ -245,7 +247,7 @@ const Testimonials = () => {
     testimonial:
       "From 10th grade onward, Vaibhav Bhaiya has been more than just a teacher. He made me fall in love with Math and taught me how to stay calm under pressure. His care and positivity inspired me a lot.",
     videoUrl: "https://www.youtube.com/embed/SOUzmnEFBh8",
-    year: "2024",
+    year: "2025",
   },
   {
     id: 21,
@@ -269,7 +271,7 @@ const Testimonials = () => {
     testimonial:
       "This journey was challenging, but Vaibhav Bhaiya guided and supported me through it all. He connected personally with every student and taught us that staying strong is a victory in itself.",
     videoUrl: "https://www.youtube.com/embed/hVMFe6Kp3dA",
-    year: "2024",
+    year: "2025",
   },
   {
     id: 23,
@@ -281,7 +283,7 @@ const Testimonials = () => {
     testimonial:
       "Whenever Vaibhav Bhaiya taught Maths, four hours passed like minutes. His sessions were both informative and fun. Learning from him was one of the best parts of my journey.",
     videoUrl: "https://www.youtube.com/embed/rc2JwEuNBaE",
-    year: "2024",
+    year: "2025",
   },
   {
     id: 24,
@@ -293,7 +295,7 @@ const Testimonials = () => {
     testimonial:
       "He wasn’t just a teacher; he was a mentor. His practical guidance and relaxed classroom environment made learning smooth and enjoyable. He truly shaped my approach to studying.",
     videoUrl: "https://www.youtube.com/embed/joelTss_TDw",
-    year: "2024",
+    year: "2025",
   },
 ];
 
@@ -301,13 +303,13 @@ const Testimonials = () => {
 
 
   const stats = [
-    { number: "100+", label: "Happy Students", icon: Users },
+    { number: "1000+", label: "Happy Students", icon: Users },
     { number: "95%", label: "Success Rate", icon: Award },
     { number: "4.9/5", label: "Average Rating", icon: Star },
-    { number: "50+", label: "Video Reviews", icon: Play }
+    { number: "500+", label: "Video Reviews", icon: Play }
   ];
 
-  const years = ["All", "2024", "2023"];
+  const years = ["All", "2025", "2024"];
   const [selectedYear, setSelectedYear] = useState("All");
 
   const filteredTestimonials = selectedYear === "All" 
@@ -447,12 +449,12 @@ const Testimonials = () => {
             </p>
             
             <div className="flex flex-col sm:flex-row gap-6 justify-center">
-              <button className="bg-gradient-to-r from-blue-500 to-blue-700 text-white px-8 py-4 rounded-full font-semibold text-lg hover:scale-105 transition-all duration-300 shadow-lg hover:shadow-xl">
+              <button onClick={()=>navigate("/")} className="bg-gradient-to-r from-blue-500 to-blue-700 text-white px-8 py-4 rounded-full font-semibold text-lg hover:scale-105 transition-all duration-300 shadow-lg hover:shadow-xl">
                 Start Your Journey Today
                 <Star className="inline-block ml-2 h-5 w-5" />
               </button>
               
-              <button className="border-2 border-white text-white px-8 py-4 rounded-full font-semibold text-lg hover:bg-white hover:text-blue-600 transition-all duration-300">
+              <button onClick={()=>navigate("/results")} className="border-2 border-white text-white px-8 py-4 rounded-full font-semibold text-lg hover:bg-white hover:text-blue-600 transition-all duration-300">
                 Watch More Reviews
                 <Play className="inline-block ml-2 h-5 w-5" />
               </button>

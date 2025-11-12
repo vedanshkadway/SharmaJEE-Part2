@@ -19,11 +19,11 @@ const FAQ = () => {
         },
         {
           question: "Who is the founder and what are his credentials?",
-          answer: "SharmaJEE is founded by Rohit Sharma, an IIT Delhi Mechanical Engineering graduate who secured AIR 142 in JEE Advanced 2017. With 5+ years of teaching experience, he has mentored over 1000 students with 50+ achieving AIR under 100."
+          answer: "SharmaJEE is founded by Vaibhav Sharma, an IIT Mandi Electrical Engineering graduated in 2021. With 5+ years of teaching experience, he has mentored over 1000 students with 50+ achieving AIR under 1000."
         },
         {
           question: "What is the success rate of students at SharmaJEE?",
-          answer: "We maintain a consistent 95% success rate in JEE Mains qualification over the past 5 years. Over 50 students have secured ranks under AIR 100 in JEE Advanced, with our students achieving an average improvement of 150+ marks from their initial mock tests."
+          answer: "We maintain a consistent 95% success rate in JEE Mains qualification over the past 5 years. Over 50 students have secured ranks under AIR 1000 in JEE Advanced, with our students achieving an average improvement of 150+ marks from their initial mock tests."
         }
       ]
     },
@@ -162,7 +162,7 @@ const FAQ = () => {
                 {/* Category Header */}
                 <div className="flex items-center space-x-4 mb-8">
                   <div className={`p-3 rounded-lg bg-gradient-to-r ${category.color} bg-opacity-10`}>
-                    <category.icon className="h-6 w-6 text-blue-600" />
+                    <category.icon className="h-6 w-6 text-white" />
                   </div>
                   <h2 className="text-2xl sm:text-3xl font-bold text-gray-900">{category.title}</h2>
                 </div>
@@ -225,7 +225,7 @@ const FAQ = () => {
               <div className="bg-white/10 backdrop-blur-md rounded-2xl p-6">
                 <Phone className="h-8 w-8 text-yellow-400 mx-auto mb-4" />
                 <h3 className="text-xl font-semibold mb-2">Call Us</h3>
-                <p className="text-blue-100">+91 98765 43210</p>
+                <p className="text-blue-100">+91 9599579007</p>
               </div>
               <div className="bg-white/10 backdrop-blur-md rounded-2xl p-6">
                 <MessageSquare className="h-8 w-8 text-yellow-400 mx-auto mb-4" />

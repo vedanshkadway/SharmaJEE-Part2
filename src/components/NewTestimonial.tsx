@@ -17,7 +17,7 @@ export default function FlipCard({
   studentName,
   collegeName,
   studentPhoto,
-  className = "transform transition duration-300 hover:scale-105 hover:bg-red-50"
+  className = "transform transition duration-300 hover:scale-105"
 
 }: FlipCardProps) {
   const [isFlipped, setIsFlipped] = useState(false);
