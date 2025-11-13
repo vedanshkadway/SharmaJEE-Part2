@@ -2,6 +2,15 @@ import { Star, Quote } from 'lucide-react';
 
 const TestimonialsSection = () => {
   const testimonials = [
+    {
+    id: 18,
+    name: "Izma",
+    rank: "IIT Delhi",
+    image: "/Testimonial/Izma.webp",
+    text: "Vaibhav Sir has been more than a teacher — he’s been my mentor. For three years, he guided me through every challenge in my JEE journey with study plans, tests, and constant motivation. His support made my preparation strong and his lessons still inspire me today. Truly grateful!",
+    rating: 5,
+    year: "2024"
+  },
   {
     id: 1,
     name: "Aditya Yadav",

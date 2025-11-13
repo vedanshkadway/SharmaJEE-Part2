@@ -8,9 +8,9 @@ const Footer = () => {
         <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-8">
           {/* Brand Section */}
           <div className="lg:col-span-2">
-            <div className="flex items-center space-x-2 mb-6">
+            <button onClick={()=>{window.scrollTo(0,0)}} className="flex items-center space-x-2 mb-6">
               <img src="/Footer/logo.svg" alt="logo" width={200} height={100} />
-            </div>
+            </button>
             <p className="text-gray-300 leading-relaxed mb-6 max-w-md">
               Empowering students to achieve their JEE dreams through expert guidance, 
               comprehensive study materials, and proven teaching methodologies.
@@ -64,6 +64,7 @@ const Footer = () => {
                 <li key={link.name}>
                   <Link 
                     to={link.path}
+                    onClick={()=>window.scrollTo(0,0)}
                     className="text-gray-300 hover:text-white transition-colors duration-300 flex items-center group"
                   >
                     <span className="group-hover:translate-x-1 transition-transform duration-300">

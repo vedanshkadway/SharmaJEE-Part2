@@ -428,13 +428,13 @@ const Results = () => {
             </p>
             
             <div className="flex flex-col sm:flex-row gap-6 justify-center">
-              <button onClick={()=>navigate("/")} className="bg-white text-blue-600 px-8 py-4 rounded-full font-semibold text-lg hover:scale-105 transition-all duration-300 shadow-lg hover:shadow-xl">
+              <button onClick={()=>{navigate("/");window.scrollTo(0,0)}} className="bg-white text-blue-600 px-8 py-4 rounded-full font-semibold text-lg hover:scale-105 transition-all duration-300 shadow-lg hover:shadow-xl">
                 Start Your Journey
                 <Target className="inline-block ml-2 h-5 w-5" />
               </button>
               
-              <button onClick={()=> navigate("/testimonials")} className="border-2 border-blue-200 text-blue-100 px-8 py-4 rounded-full font-semibold text-lg hover:bg-blue-200 hover:text-blue-600 transition-all duration-300">
-                View All Results
+              <button onClick={()=> {navigate("/testimonials");window.scrollTo(0,0)}} className="border-2 border-blue-200 text-blue-100 px-8 py-4 rounded-full font-semibold text-lg hover:bg-blue-200 hover:text-blue-600 transition-all duration-300">
+                View All Testimonials
                 <Award className="inline-block ml-2 h-5 w-5" />
               </button>
             </div>

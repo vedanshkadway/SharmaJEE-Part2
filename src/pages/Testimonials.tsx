@@ -449,13 +449,17 @@ const Testimonials = () => {
             </p>
             
             <div className="flex flex-col sm:flex-row gap-6 justify-center">
-              <button onClick={()=>navigate("/")} className="bg-gradient-to-r from-blue-500 to-blue-700 text-white px-8 py-4 rounded-full font-semibold text-lg hover:scale-105 transition-all duration-300 shadow-lg hover:shadow-xl">
+              <button onClick={()=>{navigate("/");window.scrollTo(0,0)}} className="bg-gradient-to-r from-blue-500 to-blue-700 text-white px-8 py-4 rounded-full font-semibold text-lg hover:scale-105 transition-all duration-300 shadow-lg hover:shadow-xl">
                 Start Your Journey Today
                 <Star className="inline-block ml-2 h-5 w-5" />
               </button>
               
-              <button onClick={()=>navigate("/results")} className="border-2 border-white text-white px-8 py-4 rounded-full font-semibold text-lg hover:bg-white hover:text-blue-600 transition-all duration-300">
-                Watch More Reviews
+              <button onClick={() => {
+  navigate("/results");
+  window.scrollTo(0, 0);
+}}
+ className="border-2 border-white text-white px-8 py-4 rounded-full font-semibold text-lg hover:bg-white hover:text-blue-600 transition-all duration-300">
+                Watch More Results
                 <Play className="inline-block ml-2 h-5 w-5" />
               </button>
             </div>
