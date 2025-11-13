@@ -7,6 +7,17 @@ import PlaneCard from '@/components/PlaneCards';
 const Results = () => {
   const navigate = useNavigate();
   const students = [
+    {
+    id: 18,
+    name: "Izma",
+    college: "IIT Delhi",
+    image: "/Testimonial/Izma.webp",
+    testimonial: (
+      <p className="text-gray-700 text-center">
+        Vaibhav Sir has been more than a teacher — he’s been my mentor. For three years, he guided me through every challenge in my JEE journey with study plans, tests, and constant motivation. His support made my preparation strong and his lessons still inspire me today. Truly grateful!
+      </p>
+    ),
+  },
   {
     id: 1,
     name: "Aditya Yadav",
@@ -94,7 +105,7 @@ const Results = () => {
       name: "Saransh Gupta",
       previousRank: "65 Percentile",
       currentRank: "98.2 Percentile",
-      exam: "JEE Main 2024",
+      exam: "Joint Entrance Exam (JEE) Mains",
       improvement: 33.2,
       image: "/Result/Saransh.webp"
     },
@@ -102,7 +113,7 @@ const Results = () => {
       name: "Saquib Siddique", 
       previousRank: "80 Percentile",
       currentRank: "97.9 Percentile",
-      exam: "JEE Main 2024",
+      exam: "Joint Entrance Exam (JEE) Mains",
       improvement: 17.9,
       image: "/Result/Saqib.webp"
     },
@@ -110,7 +121,7 @@ const Results = () => {
       name: "Ikjot Singh",
       previousRank: "74.5 Percentile",
       currentRank: "89.1 Percentile",
-      exam: "JEE Main 2024",
+      exam: "Joint Entrance Exam (JEE) Mains",
       improvement: 14.6,
       image: "/Result/Ikjot.webp"
     },
@@ -118,7 +129,7 @@ const Results = () => {
       name: "Navrun Singh",
       previousRank: "84.2 Percentile",
       currentRank: "97.6 Percentile",
-      exam: "JEE Main 2024", 
+      exam: "Joint Entrance Exam (JEE) Mains", 
       improvement: 13.4,
       image: "/Result/Navrun.webp"
     },
@@ -127,7 +138,7 @@ const Results = () => {
       name: "Aadya Arya",
       previousRank: "84.7 Percentile",
       currentRank: "92 Percentile",
-      exam: "JEE Main 2024",
+      exam: "Joint Entrance Exam (JEE) Mains",
       improvement: 7.3,
       image: "/Result/Aadya.webp"
     },
@@ -135,7 +146,7 @@ const Results = () => {
       name: "Harsh Shankar Pandey",
       previousRank: "97.1 Percentile",
       currentRank: "99.5 Percentile",
-      exam: "JEE Main 2024",
+      exam: "Joint Entrance Exam (JEE) Mains",
       improvement: 2.4,
       image: "/Result/harshPandey.webp"
     },
@@ -144,7 +155,7 @@ const Results = () => {
       name: "Pradeep Jangir",
       previousRank: "98.2 Percentile",
       currentRank: "98.9 Percentile",
-      exam: "JEE Main 2024",
+      exam: "Joint Entrance Exam (JEE) Mains",
       improvement: 0.7,
       image: "/Result/Pradeep.webp"
     },
@@ -152,7 +163,7 @@ const Results = () => {
       name: "Izma",
       previousRank: "98.67 Percentile",
       currentRank: "99.18 Percentile",
-      exam: "JEE Main 2024",
+      exam: "Joint Entrance Exam (JEE) Mains",
       improvement: 
       0.51,
       image: "/Result/izma.webp"

@@ -69,13 +69,7 @@ const Header = () => {
               <LogIn className="h-5 w-5" />
               <span className="text-base">Login to Dashboard</span>
             </button>
-            {/* <button
-              className="flex items-center space-x-2 px-6 py-3 rounded-xl transition-all duration-300 shadow-lg hover:shadow-xl font-medium transform hover:scale-105 
-                bg-gradient-to-r from-blue-600 to-blue-700 text-white hover:from-blue-700 hover:to-blue-800"
-            >
-              <UserPlus className="h-5 w-5" />
-              <span className="text-base">Sign Up</span>
-            </button> */}
+            
           </div>
 
           {/* Mobile menu button */}
@@ -115,14 +109,7 @@ const Header = () => {
               <LogIn className="h-5 w-5" />
               <span className="text-base">Login to Dashboard</span>
             </button>
-            {/* <button
-              onClick={() => setIsMenuOpen(false)}
-              className="w-full flex items-center justify-center space-x-2 px-6 py-3 rounded-xl transition-all duration-300 shadow-lg hover:shadow-xl font-medium transform hover:scale-105 
-                bg-gradient-to-r from-blue-600 to-blue-700 text-white hover:from-blue-700 hover:to-blue-800"
-            >
-              <UserPlus className="h-5 w-5" />
-              <span className="text-base">Sign Up</span>
-            </button> */}
+            
           </div>
         </div>
       )}
